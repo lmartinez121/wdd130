@@ -58,7 +58,7 @@ article {
     top: 150px;
     right: auto;
     background-color: var(--accent1-color);
-    color: black;
+    color: #fff;
     text-align: left;
     opacity: 0.9;
 }
