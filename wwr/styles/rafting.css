@@ -13,7 +13,7 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     border: var(--accent2-color) 2px solid;
-    padding: 8px; 
+    padding: 30px; 
 }
 header img {
     vertical-align: middle;
