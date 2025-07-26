@@ -13,7 +13,8 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     border: var(--accent2-color) 2px solid;
-    padding: 30px; 
+    padding: 8px; 
+    margin: 10px;
 }
 header img {
     vertical-align: middle;
@@ -51,6 +52,7 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -62,15 +64,15 @@ nav, p, section, article {
 }
 .socialmedia a {
     text-decoration: none;
+    
 }
-.socialmedia img {
-    height: 30px
-    width: 30px;
-    grid-column: 3;
-    grid-row: 1;
-    object-fit: cover;
-    vertical-align: middle;
-
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: var(--primary-color);
 }
 .hero {
     position: relative;
@@ -79,8 +81,10 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    margin: 15px 0;
+    border: var(--accent2-color) 2px solid;
 }
-h1 {
+    h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -104,24 +108,27 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+    
 }
 
 .history {
-    border: var(--primary-color) 2px solid;
+    border: var(--accent2-color) 2px solid;
     padding: 0;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    width: 100% ;
+    margin: 10px 0;
 }
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 30% 60% 40%;
-    grid-gap: 5px;
-    margin: 10px;
-    padding: 5px;
-    border: #D08931;
+    grid-template-columns: repeat(5, 19%);
+    grid-template-rows: 20% 60% 30%;
+    grid-gap: 10px;
+    margin: 10px 0;
+    padding: 25px ;
+    border: var(--accent2-color) 2px solid;
+    width: 100%;
 }
 
 .adventure h2 {
@@ -149,13 +156,12 @@ article {
     font-size: 1.2em;
     text-align: center;
     padding: 8px;
-
     color: var(--accent2-color);
 }
 
 footer {
-    border: var(--primary-color) 2px solid;
-    background-color: var(--accent1-color);
+    border: var(--accent2-color) 2px solid;
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 30% 40% 30%;
     grid-template-rows: 100%;
