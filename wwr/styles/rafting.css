@@ -34,7 +34,8 @@ nav {
 }
 
 nav a {
-    border: 1px solid #2B3737;
+    border: 1px solid;
+    border-color: var(--accent2-color);
     padding: 8px 12px;
     text-decoration: none;
     background-color: var(--primary-color);
