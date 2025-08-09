@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact page for the White Water Rafting site." />
+    <meta name="author" content="Luis Ramon Martinez" />
+    <title>White Water Rafting - Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/wwrlogo.webp" alt="White Water Rafting Logo" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <h1>Contact Us</h1>
+            <img src="images/wwrhero.jpg" alt="Hero Image of Raft in River">
+            <article>
+                <img src="images/rafting-customers.jpg" alt="Friendly rafting staff helping customers" />
+                <p>We would love to hear from you! Whether you have questions about our rafting trips, need help with
+                    bookings, or just want to share your experience, we’re here for you.</p>
+                <p>Our team will help you plan the perfect adventure on the river. Contact us through the form below or
+                    on our social media channels.</p>
+            </article>
+        </div>
+
+        <section class="company-info">
+            <p><strong>Address:</strong> 123 Rapids Road, Kernville, CA 93238</p>
+            <p><strong>Phone:</strong> (949) 455-4567</p>
+            <p><strong>Email:</strong> info@wwr.com</p>
+            
+        </section>
+
+        <section class="map-section">
+            <h2>Find Us Here</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6502.214223886812!2d-118.82628736998272!3d35.42737655773478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1754752916074!5m2!1sen!2sus"
+                loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="adventure employee-grid">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Photo of Jane Doe" />
+                <figcaption>John Doe - Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Photo of John Smith" />
+                <figcaption>Jess Smith - Safety Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Photo of Alice Lee" />
+                <figcaption>James Lee - Customer Service Manager</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <fieldset>
+                    <legend>Reason for Contact:</legend>
+                    <label><input type="radio" name="reason" value="general" required /> General Inquiry</label>
+                    <label><input type="radio" name="reason" value="reservation" /> Reservation Question</label>
+                    <label><input type="radio" name="reason" value="website" /> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" name="subscribe" value="yes" />
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copy">&copy; 2025 | White Water Rafting | Luis Ramon Martinez</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook_logo_button.png" alt="Facebook Icon" />
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram_logo_button.png" alt="Instagram Icon" />
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter_logo_button.png" alt="Twitter Icon" />
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
